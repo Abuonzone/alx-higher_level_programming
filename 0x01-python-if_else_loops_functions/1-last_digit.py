@@ -13,9 +13,4 @@ else:
     ans = number * -1
     res = ans % 10
     b = -1 * res
-    if res > 5:
-        print(f"Last digit of {number} is {b} and is greater than 5")
-    elif res == 0:
-        print(f"Last digit of {number} is {b} and is 0")
-    else:
-        print(f"Last digit of {number} is {b} and is less than 6 and not 0")
+    print(f"Last digit of {number} is {b} and is less than 6 and not 0")
